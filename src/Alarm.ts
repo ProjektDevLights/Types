@@ -1,10 +1,11 @@
 import PartialLight from "./PartialLight";
 
-export default interface Alarm{
-    id: string,
-    color: string,
-    date: string,
-    days: number[],
-    repeat: number,
-    lights: PartialLight[],
+export default interface Alarm {
+  name?: string;
+  isOn: boolean;
+  id: string;
+  color: string;
+  time: string;
+  days: number[];
+  lights: PartialLight[];
 }
