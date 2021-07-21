@@ -11,4 +11,5 @@ export default interface Light {
   isOn: boolean;
   custom_sequence?: CustomData[];
   comment?: string;
+  position: number;
 }
