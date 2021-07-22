@@ -1,6 +1,7 @@
 export { default as Alarm } from "./src/Alarm";
 export { default as Light } from "./src/Light";
 export { default as Leds } from "./src/Leds";
+export { default as CustomData } from "./src/CustomData";
 export { default as PartialLight } from "./src/PartialLight";
 export { FakePattern, FAKE_PATTERNS } from "./src/Pattern/fake-pattern";
 export { Pattern } from "./src/Pattern/Pattern";

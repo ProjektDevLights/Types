@@ -1,6 +1,6 @@
 {
   "name": "@devlights/types",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Types for Projekt DevLights",
   "main": "index.d.ts",
   "scripts": {
